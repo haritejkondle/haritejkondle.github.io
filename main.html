@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haritej - Portfolio</title>
+  <!-- Add Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="m">
+  <link rel="stylesheet" href="main.css">
+  <!-- Add your custom CSS here (optional) -->
+  <style>
+    /* Your custom CSS rules go here */
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="position: fixed; width: 100%; z-index: 999;">
+ 
+    <a class="navbar-brand" href="#">Hari Tej Kondle</a>
+    <!-- Add navigation links here -->
+    <ul class="nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      
+
+        <li class="nav-item">
+            <a class="nav-link" href="https://drive.google.com/file/d/1O85uLq5rBQtHDxWYypgfOOWaL6wZtLxr/view?usp=sharing"><button onclick="https://drive.google.com/file/d/1O85uLq5rBQtHDxWYypgfOOWaL6wZtLxr/view?usp=sharing" class="btn btn-link"></button>Resume</button></a>
+          </li>
+      
+      
+      <li class="nav-item dropdown"> <!-- Add 'dropdown' class to the parent li element -->
+        <a class="nav-link dropdown-toggle" href="#" id="portfolioDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Portfolio
+        </a>
+        <div class="dropdown-menu" aria-labelledby="portfolioDropdown">
+            <a class="dropdown-item" href="#portfolio">Portfolio</a>
+          <a class="dropdown-item" href="#skills">Skills</a>
+          <a class="dropdown-item" href="#education">Education</a>
+          <a class="dropdown-item" href="#projects">projects</a>
+          <a class="dropdown-item" href="#Achievements">Achievements</a>
+          <!-- Add more dropdown items as needed -->
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <!-- Hero Section -->
+  <header class="jumbotron" style="background-image: url('images\ \(1\).jpeg');">
+    <div class="container text-center">
+      <h1 style="color: azure;">HARI TEJ KONDLE</h1>
+      <p style="color: aliceblue;">Front-end Developer</p>
+    </div>
+  </header>
+  
+  <!-- About Section -->
+  <section id="about" class="container my-5">
+    <section class="container my-5 about-section">
+        <!-- About Section -->
+<section class="container my-5">
+    <h2>About Me</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about-photo-frame">
+          <img src="pic.png" alt="Profile Photo">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p>
+          Hi there! <b>I'm HariTej</b>, a passionate Front-end Developer based in Khammam, Telangana. 
+          From a young age, I have been fascinated by technology and web development. 
+          My journey into the world of programming began when I learned to code in HTML and CSS, 
+          and I have been honing my skills ever since.
+          <br>
+          <br>
+          I have a good foundation on  modern web technologies, including JavaScript and various 
+          frameworks like React and Vue.js. My passion for clean and efficient code drives me to 
+          continuously improve and stay up-to-date with the latest industry trends.
+          <br><br>
+          My ultimate goal is to use my skills to create meaningful and user-friendly web 
+          experiences that positively impact people's lives. I'm excited to continue learning, 
+          growing, and contributing to the ever-evolving field of front-end development.
+      
+  
+          <!-- Add more details about yourself here -->
+        </p>
+      </div>
+    </div>
+  </section>
+    </section>
+    
+
+  
+
+  </section>
+  
+ <!-- Portfolio Section -->
+<section class="container my-5 portfolio-section">
+    <section id="portfolio" class="container my-5">
+        <h2>Portfolio</h2>
+        <!-- Add your portfolio projects here (sample content) -->
+
+
+
+
+     <div class="grid-container" id="portfolio" style=" grid-template-columns: repeat(4, 1fr);" >
+        <button class="grid-item" onclick="scrollToSection('skills')">Skills</button>
+        <button class="grid-item" onclick="scrollToSection('education')">Education</button>
+        <button class="grid-item" onclick="scrollToSection('projects')">Projects</button>
+        <button class="grid-item" onclick="scrollToSection('achievement')">Achievements</button>
+
+
+     </div>
+    </section> 
+</section>
+
+
+<!-- skills section-->
+<section class="container my-5 skills-section" >
+        <section id="skills" class="section" >
+         <h2>Skills</h2>
+         <div class="grid-container">
+            <div class="grid-item" onmouseover="flipContainer(this)">
+              <div class="front">
+                <h3>Python</h3>
+              </div>
+              <div class="back">
+                <p style="font-size: large;">Intermediate Level</p>
+                
+              </div>
+            </div>
+          
+            <div class="grid-item" onmouseover="flipContainer(this)">
+              <div class="front">
+                <h3>Java</h3>
+              </div>
+              <div class="back">
+                <p>Intermediate Level</p>
+              </div>
+            </div>
+          
+            <div class="grid-item" onmouseover="flipContainer(this)">
+              <div class="front">
+                <h3>C</h3>
+              </div>
+              <div class="back">
+                <p>Intermediate Level</p>
+              </div>
+            </div>
+          
+            <div class="grid-item" onmouseover="flipContainer(this)">
+              <div class="front">
+                <h3>HTML</h3>
+              </div>
+              <div class="back">
+                <p>Intermediate Level</p>
+              </div>
+            </div>
+          
+            <div class="grid-item" onmouseover="flipContainer(this)">
+              <div class="front">
+                <h3>CSS</h3>
+              </div>
+              <div class="back">
+                <p>Intermediate Level</p>
+              </div>
+            </div>
+          
+            <div class="grid-item" onmouseover="flipContainer(this)">
+              <div class="front">
+                <h3>DBMS</h3>
+              </div>
+              <div class="back">
+                <p>Intermediate Level</p>
+              </div>
+            </div>
+            <script>
+                function flipContainer(element) {
+                  element.classList.toggle('flipped');
+                }
+              </script>
+              
+          </div>
+        
+
+
+
+
+
+
+
+         </section>
+    </section>
+      
+      <section id="education" class="section">
+        
+        <!-- Education Section -->
+    <section class="container my-5 education-section">
+        <section class="container my-5">
+                <h2>Education</h2>
+            <div class="row">
+                 <div class="col-md-4">
+                     <div class="education-item" style="background-image: url('images\ \(2\).jpeg');">
+                         <div class="overlay">
+                             <h3>Bachelor's Degree</h3>
+                                <p>Vaagdevi College of Engineering</p>
+                                <p>Major: CSE (AI & ML)</p>
+                                <p>Year of Graduation: 2024</p>
+                         </div>
+                        </div>
+                  </div>
+                <div class="col-md-4">
+            <div class="education-item" style="background-image: url('s-r-education-center-warangal-02aoxt82fu-250.jpg');">
+            <div class="overlay">
+            <h3>Intermediate</h3>
+            <p>S R edu center</p>
+            <p>Stream: MPC</p>
+            <p>Year of Graduation: 2020</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="education-item" style="background-image: url('xUCctDGaKd.jpg');">
+          <div class="overlay">
+            <h3>School</h3>
+            <p>Harvest Public School</p>
+            <p>Year of Graduation: 2018</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    </section>
+        
+  </section>
+  
+
+        
+        
+        
+
+  
+      </section>
+      <section class="container my-5 projects-section">
+      <section id="projects" class="section">
+       <!-- Projects Section -->
+<section class="container my-5">
+    <h2>Projects</h2>
+    <div class="project-flex-container">
+     <!-- Project 1 -->
+     <div class="containerp">
+        <div class="text-containerp">
+           <p style="font-size: large;"> 1.Heart Disease Prediction</p>
+           <p>Heart disease prediction using K-Nearest Neighbors (KNN) algorithm involves classifying patients as healthy or having heart disease based on their similarity to neighboring data points. KNN utilizes the distance between features of a patient's health data and those of known cases to make predictions, making it a simple yet effective approach for early detection and diagnosis. </p>
+            
+          </div>
+        <div class="img-containerp">
+          <img src="images (3) - Copy.jpeg" alt="images (3) - Copy.jpeg">
+        </div>
+     </div>
+      </div>
+      
+<!-- Project 2 -->
+<div class="containerp">
+    <div class="text-containerp">
+       <p style="font-size: large;"> 2.Malware Detection</p>
+       <p>Malware detection is the process of identifying and classifying malicious software in computer systems, safeguarding against potential threats and ensuring a secure computing environment. Various techniques, such as signature-based scanning and behavior analysis, are used to identify and prevent malware from compromising the system.</p>
+        
+      </div>
+    <div class="img-containerp">
+      <img src="download.jpeg" alt="download.jpeg">
+    </div>
+ </div>
+  </div>
+
+
+<!-- Project 3 -->
+<div class="containerp">
+    <div class="text-containerp">
+       <p style="font-size: large;"> 3.YouTube Vedio Downloader</p>
+       <p>
+        A YouTube Video Downloader is a tool or application that allows users to save and download videos from YouTube to their devices, enabling offline viewing and easy access to their favorite content without an internet connection. It extracts video files from YouTube URLs and provides various download formats and quality options for user convenience.
+      </p>
+      </div>
+    <div class="img-containerp">
+      <img src="images.png" alt="images.png">
+    </div>
+ </div>
+  </div>
+
+      
+  
+    
+  </section>
+  </section>
+      </section>
+
+
+</section>
+<!-- Achivement -->
+
+  </section>
+  <section id="Achievements" class="section">
+        <section class="container my-5 education-section">
+                <section class="container my-5">
+                     <h1>Achievements</h1>
+                     <div class="image-container">
+                        <img src="Screenshot 2023-07-21 180106.png" alt="Image 1">
+                        <img src="Screenshot 2023-07-21 180124.png" alt="Image 2">
+                        <img src="Screenshot 2023-07-21 211916.png" alt="Image 3">
+                        
+                        <img src="Screenshot 2023-07-21 211755.png" alt="Image 4">
+                        <img src="Screenshot 2023-07-21 211826.png" alt="Image 5">
+                        
+                        <img src="Haritej Kondle.jpg" alt="Image 6">
+                      </div>
+    
+                </section>
+        </section>
+    </section>
+    
+  <!-- Contact Section -->
+  <section class="container my-5 contact-section">
+  <section id="contact" class="container my-5">
+    <h2>Contact Details</h2>
+         <div class="contact-container">
+          <div class="contact-info">
+           
+            <p><strong>Name:</strong> HariTej Kondle</p>
+            <p><strong>Email:</strong> tejkondle2002@gmail.com</p>
+            <p><strong>Phone:</strong> +91 9553787082</p>
+            <!-- Add any other contact information as needed -->
+          </div>
+          <div class="contact-photo">
+            <img src="IMG_20210614_102852_673.jpg" alt="Profile Photo">
+          </div>
+        </div>
+</section></section>
+    <script>
+        $(document).ready(function() {
+          $('a.nav-link').on('click', function(e) {
+            e.preventDefault();
+      
+            var target = $(this.hash);
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000); // The animation duration in milliseconds (adjust as needed)
+            }
+          });
+        });
+      </script>
+  </section>
+  
+  <!-- Add the jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- Smooth scrolling behavior for anchor links -->
+  
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white text-center py-3">
+    <div class="container">
+      &copy; 2023 Haritej Kondle
+    </div>
+  </footer>
+
+  <!-- Add Bootstrap JS and other scripts (if needed) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
